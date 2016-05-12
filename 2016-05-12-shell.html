@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>shell | Mkeng&#39;s Blog</title>
+  <title>shell学习笔记（一） | Mkeng&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##位置变量
+  <meta name="description" content="位置变量
 
-1234567891011121314151617`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程">
+123456789`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程序的最佳方式）`$$`    &amp;gt">
 <meta property="og:type" content="article">
-<meta property="og:title" content="shell">
+<meta property="og:title" content="shell学习笔记（一）">
 <meta property="og:url" content="http://long0214.github.io/2016-05-12-shell.html">
 <meta property="og:site_name" content="Mkeng's Blog">
-<meta property="og:description" content="##位置变量
+<meta property="og:description" content="位置变量
 
-1234567891011121314151617`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程">
-<meta property="og:updated_time" content="2016-05-12T09:03:53.588Z">
+123456789`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程序的最佳方式）`$$`    &amp;gt">
+<meta property="og:updated_time" content="2016-05-12T09:13:09.224Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="shell">
-<meta name="twitter:description" content="##位置变量
+<meta name="twitter:title" content="shell学习笔记（一）">
+<meta name="twitter:description" content="位置变量
 
-1234567891011121314151617`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程">
+123456789`$0`    &amp;gt;&amp;gt; 文件名（执行脚本时写的路径）`$n`    &amp;gt;&amp;gt; 第n个参数,如果变量a=2，$”a“=$2`$#`    &amp;gt;&amp;gt; 参数总个数`$*`    &amp;gt;&amp;gt; 获取所有参数，当成一个字符串输出`$@`    &amp;gt;&amp;gt; 获取所有参数，保留参数间的空白（将参数传递给其他程序的最佳方式）`$$`    &amp;gt">
   
   
     <link rel="icon" href="/img/MK.jpg">
@@ -112,7 +112,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/标签1/" style="font-size: 10px;">标签1</a> <a href="/tags/标签2/" style="font-size: 10px;">标签2</a> <a href="/tags/标题1/" style="font-size: 10px;">标题1</a> <a href="/tags/标题2/" style="font-size: 10px;">标题2</a>
+						<a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/shell/" style="font-size: 10px;">shell</a> <a href="/tags/标签1/" style="font-size: 10px;">标签1</a> <a href="/tags/标签2/" style="font-size: 10px;">标签2</a> <a href="/tags/标题1/" style="font-size: 10px;">标题1</a> <a href="/tags/标题2/" style="font-size: 10px;">标题2</a>
 					</div>
 				</section>
 				
@@ -194,7 +194,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      shell
+      shell学习笔记（一）
     </h1>
   
 
@@ -202,6 +202,10 @@
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell/">shell</a></li></ul>
+	</div>
+
         
 
         <div class="clearfix"></div>
@@ -211,19 +215,18 @@
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li>##位置变量</li>
+<li><h2 id="位置变量"><a href="#位置变量" class="headerlink" title="位置变量"></a>位置变量</h2></li>
 </ul>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$0`</span>    <span class="meta">&gt;&gt; </span>文件名（执行脚本时写的路径）</span><br><span class="line"></span><br><span class="line"><span class="string">`$n`</span>    <span class="meta">&gt;&gt; </span>第n个参数,如果变量a=<span class="number">2</span>，$”a“=$2</span><br><span class="line"></span><br><span class="line"><span class="string">`$#`</span>    <span class="meta">&gt;&gt; </span>参数总个数</span><br><span class="line"></span><br><span class="line"><span class="string">`$*`</span>    <span class="meta">&gt;&gt; </span>获取所有参数，当成一个字符串输出</span><br><span class="line"></span><br><span class="line"><span class="string">`$@`</span>    <span class="meta">&gt;&gt; </span>获取所有参数，保留参数间的空白（将参数传递给其他程序的最佳方式）</span><br><span class="line"></span><br><span class="line"><span class="string">`$$`</span>    <span class="meta">&gt;&gt; </span>当前进程的PID</span><br><span class="line"></span><br><span class="line"><span class="string">`$!`</span>    <span class="meta">&gt;&gt; </span>上一个指令的PID</span><br><span class="line"></span><br><span class="line"><span class="string">`$?`</span>    <span class="meta">&gt;&gt; </span>上一条指令的返回值（<span class="number">0</span><span class="symbol">:</span>成功;<span class="number">2</span><span class="symbol">:</span>权限拒绝;<span class="number">126</span><span class="symbol">:</span>命令找到但无法执行;<span class="number">127</span><span class="symbol">:</span>命令未找到;&gt;<span class="number">128</span><span class="symbol">:</span>被系统强制结束;<span class="symbol">else:</span>执行失败;）</span><br><span class="line"></span><br><span class="line"> <span class="string">`shift`</span>命令：所有参数左移</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$0`</span>    <span class="meta">&gt;&gt; </span>文件名（执行脚本时写的路径）</span><br><span class="line"><span class="string">`$n`</span>    <span class="meta">&gt;&gt; </span>第n个参数,如果变量a=<span class="number">2</span>，$”a“=$2</span><br><span class="line"><span class="string">`$#`</span>    <span class="meta">&gt;&gt; </span>参数总个数</span><br><span class="line"><span class="string">`$*`</span>    <span class="meta">&gt;&gt; </span>获取所有参数，当成一个字符串输出</span><br><span class="line"><span class="string">`$@`</span>    <span class="meta">&gt;&gt; </span>获取所有参数，保留参数间的空白（将参数传递给其他程序的最佳方式）</span><br><span class="line"><span class="string">`$$`</span>    <span class="meta">&gt;&gt; </span>当前进程的PID</span><br><span class="line"><span class="string">`$!`</span>    <span class="meta">&gt;&gt; </span>上一个指令的PID</span><br><span class="line"><span class="string">`$?`</span>    <span class="meta">&gt;&gt; </span>上一条指令的返回值（<span class="number">0</span><span class="symbol">:</span>成功;<span class="number">2</span><span class="symbol">:</span>权限拒绝;<span class="number">126</span><span class="symbol">:</span>命令找到但无法执行;<span class="number">127</span><span class="symbol">:</span>命令未找到;&gt;<span class="number">128</span><span class="symbol">:</span>被系统强制结束;<span class="symbol">else:</span>执行失败;）</span><br><span class="line"> <span class="string">`shift`</span>命令：所有参数左移</span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>##字符串操作</p>
-<p><strong>说明：以下\$substring可以是正则表达式</strong></p>
+<li><h2 id="字符串操作"><a href="#字符串操作" class="headerlink" title="字符串操作"></a>字符串操作</h2><p><strong>说明：以下\$substring可以是正则表达式</strong></p>
 </li>
 </ul>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$&#123;#string&#125;　　　　　　　　`</span> <span class="meta">&gt;&gt;&gt; </span>返回\$string长度</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string:postion:length &#125;`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string位置position开始提取长度为length的子串，如果没有设定length，则提取到最后</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string#substring &#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string开头，删除最短匹配\$substring的子串</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string##substring&#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最长匹配\$substring的子串</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string%substring &#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最短匹配\$substring的子串</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string%%substring&#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最长匹配\$substring的子串</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string/substring/replacement &#125;`</span> <span class="meta">&gt;&gt;&gt; </span>使用\$replacement, 来代替第一个匹配的\$substring</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string//substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>使用\$replacement, 代替所有匹配的\$substring</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string/#substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>如果\$string的前缀匹配\$substring,那么就用\$replacement来代替匹配到的\$substring</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;string/%substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>如果\$string的后缀匹配\$substring,那么就用\$replacement来代替匹配到的\$substring</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$&#123;#string&#125;　　　　　　　　`</span> <span class="meta">&gt;&gt;&gt; </span>返回\$string长度</span><br><span class="line"><span class="string">`$&#123;string:postion:length &#125;`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string位置position开始提取长度为length的子串，如果没有设定length，则提取到最后</span><br><span class="line"><span class="string">`$&#123;string#substring &#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string开头，删除最短匹配\$substring的子串</span><br><span class="line"><span class="string">`$&#123;string##substring&#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最长匹配\$substring的子串</span><br><span class="line"><span class="string">`$&#123;string%substring &#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最短匹配\$substring的子串</span><br><span class="line"><span class="string">`$&#123;string%%substring&#125;　　　`</span> <span class="meta">&gt;&gt;&gt; </span>从\$string结尾，删除最长匹配\$substring的子串</span><br><span class="line"><span class="string">`$&#123;string/substring/replacement &#125;`</span> <span class="meta">&gt;&gt;&gt; </span>使用\$replacement, 来代替第一个匹配的\$substring</span><br><span class="line"><span class="string">`$&#123;string//substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>使用\$replacement, 代替所有匹配的\$substring</span><br><span class="line"><span class="string">`$&#123;string/#substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>如果\$string的前缀匹配\$substring,那么就用\$replacement来代替匹配到的\$substring</span><br><span class="line"><span class="string">`$&#123;string/%substring/replacement&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>如果\$string的后缀匹配\$substring,那么就用\$replacement来代替匹配到的\$substring</span><br></pre></td></tr></table></figure>
 <ul>
-<li>##字符串判断</li>
+<li><h2 id="字符串判断"><a href="#字符串判断" class="headerlink" title="字符串判断"></a>字符串判断</h2></li>
 </ul>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$&#123;Str　　　&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>变量\$Str的值，等价于$Str</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;Str:-$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就匹配\$word的值</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;Str:=$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就把\$word的值传递给\$Str，再匹配\$Str的值</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;Str:?$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就把\$word的值传递到标准错误输出中</span><br><span class="line"></span><br><span class="line"><span class="string">`$&#123;Str:+$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值声明了，那么就输出\$word的值</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`$&#123;Str　　　&#125;`</span> <span class="meta">&gt;&gt;&gt; </span>变量\$Str的值，等价于$Str</span><br><span class="line"><span class="string">`$&#123;Str:-$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就匹配\$word的值</span><br><span class="line"><span class="string">`$&#123;Str:=$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就把\$word的值传递给\$Str，再匹配\$Str的值</span><br><span class="line"><span class="string">`$&#123;Str:?$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值没有声明，或者为空，那么就把\$word的值传递到标准错误输出中</span><br><span class="line"><span class="string">`$&#123;Str:+$word&#125;`</span><span class="meta">&gt;&gt;&gt;</span>如果变量\$Str的值声明了，那么就输出\$word的值</span><br></pre></td></tr></table></figure>
       
     </div>
     
